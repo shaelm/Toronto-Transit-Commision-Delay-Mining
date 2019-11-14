@@ -4,7 +4,7 @@ import pickle
 years=[2014,2015,2016,2017,2018,2019]
 dflist=[]
 for year in years:
-    file ='ttc-streetcar-delay-data-%s.xlsx'%str(year)
+    file ='datasets/ttc-streetcar-delay-data-%s.xlsx'%str(year)
     df=pd.read_excel(file)
     xls=pd.ExcelFile(file)
     for sheet_name in xls.sheet_names:
@@ -14,8 +14,8 @@ for year in years:
     dflist.append(df)
 
 finaldf=pd.concat(dflist)
-finaldf.to_pickle("./finaldata.pkl")
-finaldf.to_excel('finaldata.xlsx', engine='xlsxwriter')
+finaldf.to_pickle("processed_data/finaldata.pkl")
+finaldf.to_excel('processed_data/finaldata.xlsx', engine='xlsxwriter')
 
 
 
