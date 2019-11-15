@@ -13,7 +13,7 @@ weatherCombineddf["snowCat"]=""
 weatherCombineddf["rainCat"]=""
 ## just for TOD Cats right now
 weatherCombineddf["TOD"]=weatherCombineddf[(str(weatherCombineddf['Time'])>str("06:31:00")) & (str(weatherCombineddf['Time'])<="10:31:00")]="Morning"
-weatherCombineddf["TOD"]=weatherCombineddf[(str(weatherCombineddf['Time'])>str("10:31:00")) & (str(weatherCombineddf['Time'])<="3:31:00")]="Late Morning"
+weatherCombineddf["TOD"]=weatherCombineddf[(str(weatherCombineddf['Time'])>str("10:31:00")) & (str(weatherCombineddf['Time'])<="15:31:00")]="Late Morning"
 weatherCombineddf["TOD"]=weatherCombineddf[(str(weatherCombineddf['Time'])>str("15:31:00")) & (str(weatherCombineddf['Time'])<="18:31:00")]="After Work"
 weatherCombineddf["TOD"]=weatherCombineddf[(str(weatherCombineddf['Time'])>str("18:31:00")) & (str(weatherCombineddf['Time'])<="22:31:00")]="Evening"
 weatherCombineddf["TOD"]=weatherCombineddf[(str(weatherCombineddf['Time'])>str("22:31:00")) & (str(weatherCombineddf['Time'])<="06:31:00")]="Night"
