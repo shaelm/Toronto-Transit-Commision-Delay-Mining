@@ -8,4 +8,5 @@ weatherdf['date']=pd.to_datetime(weatherdf['date'])
 weatherdf=weatherdf[['date','snow','avg_wind_speed','avg_visibility','avg_hourly_temperature','rain']]
 weather_combined= pd.merge(finaldata,weatherdf,how='left',left_on='Report Date',right_on='date')
 weather_combined.to_excel('processed_data/weatherCombined.xlsx', engine='xlsxwriter')
+weather_combined.to_pickle("processed_data/weatherCombined.pkl")
 
