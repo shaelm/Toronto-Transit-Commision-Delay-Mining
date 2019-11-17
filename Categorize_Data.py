@@ -64,7 +64,7 @@ weatherCombineddf.loc[(weatherCombineddf['avg_hourly_temperature'].astype(float)
 weatherCombineddf.loc[(weatherCombineddf['avg_hourly_temperature'].astype(float)>10) & (weatherCombineddf['avg_hourly_temperature'].astype(float)<=15),"tempCat"]="10:15 C"
 weatherCombineddf.loc[(weatherCombineddf['avg_hourly_temperature'].astype(float)>15) & (weatherCombineddf['avg_hourly_temperature'].astype(float)<=20),"tempCat"]="15:20 C"
 weatherCombineddf.loc[(weatherCombineddf['avg_hourly_temperature'].astype(float)>10) & (weatherCombineddf['avg_hourly_temperature'].astype(float)<=15),"tempCat"]="10:15 C"
-weatherCombineddf.loc[(weatherCombineddf['avg_hourly_temperature'].astype(float)>5) & (weatherCombineddf['avg_hourly_temperature'].astype(float)<=10),"tempCat"]="0:10 C"
+weatherCombineddf.loc[(weatherCombineddf['avg_hourly_temperature'].astype(float)>5) & (weatherCombineddf['avg_hourly_temperature'].astype(float)<=10),"tempCat"]="5:10 C"
 weatherCombineddf.loc[(weatherCombineddf['avg_hourly_temperature'].astype(float)>0) & (weatherCombineddf['avg_hourly_temperature'].astype(float)<=5),"tempCat"]="0:5C"
 weatherCombineddf.loc[(weatherCombineddf['avg_hourly_temperature'].astype(float)>-5) & (weatherCombineddf['avg_hourly_temperature'].astype(float)<=0),"tempCat"]="-5:0 C"
 weatherCombineddf.loc[(weatherCombineddf['avg_hourly_temperature'].astype(float)>-10) & (weatherCombineddf['avg_hourly_temperature'].astype(float)<=-5),"tempCat"]="-10:-5 C"
@@ -103,14 +103,8 @@ weatherCombineddf=weatherCombineddf.drop(['Direction'],axis=1)
 weatherCombineddf=weatherCombineddf.drop(['Delay'],axis=1)
 weatherCombineddf=weatherCombineddf.drop(['Gap'],axis=1)
 weatherCombineddf=weatherCombineddf.drop(['Min Gap'],axis=1)
-weatherCombineddf=weatherCombineddf.drop(['date'],axis=1)
-weatherCombineddf=weatherCombineddf.drop(['snow'],axis=1)
-weatherCombineddf=weatherCombineddf.drop(['rain'],axis=1)
 weatherCombineddf=weatherCombineddf.drop(['avg_wind_speed'],axis=1)
-weatherCombineddf=weatherCombineddf.drop(['avg_hourly_temperature'],axis=1)
-weatherCombineddf=weatherCombineddf.drop(['avg_visibility'],axis=1)
 weatherCombineddf=weatherCombineddf.drop(['Vehicle'],axis=1)
-weatherCombineddf=weatherCombineddf.drop(['Time'],axis=1)
 weatherCombineddf=weatherCombineddf.drop(['Report Date'],axis=1)
 weatherCombineddf=weatherCombineddf.drop(['Incident ID'],axis=1)
 
