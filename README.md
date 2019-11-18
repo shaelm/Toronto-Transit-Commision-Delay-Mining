@@ -15,7 +15,7 @@ Weather data was downloaded for the same time frame as our streetcar delay data 
 
 # Random Forest Regression #
 
-One Hot Encoded FinalCategorizedData for the categorical variables. Used 40 estimers for the random forest ensemble
+One Hot Encoded FinalCategorizedData for the categorical variables. Used 40 estimators for the random forest ensemble
 Model had:
 Base line error of 10.62 minutes before training
 Mean Prediction Error of 3.335 minutes after training
