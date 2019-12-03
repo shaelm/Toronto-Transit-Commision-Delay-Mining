@@ -47,7 +47,7 @@ weatherCombineddf.loc[(weatherCombineddf['avg_wind_speed'].astype(float)>50),"Wi
 
 
 ##Delay Cats, over an hr is an extreme delay
-weatherCombineddf.loc[(weatherCombineddf['Min Delay'].astype(float)>=0) & (weatherCombineddf['Min Delay'].astype(float)<=50),"delayCat"]="No-Light Delay"
+weatherCombineddf.loc[(weatherCombineddf['Min Delay'].astype(float)>=0) & (weatherCombineddf['Min Delay'].astype(float)<=5),"delayCat"]="No-Light Delay"
 weatherCombineddf.loc[(weatherCombineddf['Min Delay'].astype(float)>5) & (weatherCombineddf['Min Delay'].astype(float)<=15),"delayCat"]="Light-Medium Delay"
 weatherCombineddf.loc[(weatherCombineddf['Min Delay'].astype(float)>15) & (weatherCombineddf['Min Delay'].astype(float)<=30),"delayCat"]="Medium-Heavy Delay"
 weatherCombineddf.loc[(weatherCombineddf['Min Delay'].astype(float)>30) & (weatherCombineddf['Min Delay'].astype(float)<=50),"delayCat"]="Heavy Delay"
