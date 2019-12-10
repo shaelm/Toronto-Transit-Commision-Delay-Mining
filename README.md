@@ -23,7 +23,31 @@ Mean Prediction Error of 3.335 minutes after training
 
 
 
+# Installing Dependencies #
+
+We use conda to manage dependencies, install conda from https://docs.conda.io/projects/conda/en/latest/user-guide/install/ if you do not have it. The code was tested on conda version 4.7.12.
+
+## Create the environment
+1. Open the Conda Prompt
+2. Run "conda env create -f environment.yml" using the environment.yml provided
+
+## Activate the environment
+1. Run "conda activate sjr-fall-2019-datamining-project"
+
+This provides the dependencies needed for the python files.
 
 
+# Running the code #
 
+You can recreate the processed datasets or just run the regressor and frequent pattern mining
 
+## Run the regression
+1. Run "python random_forest.py"
+
+## Run the frequent pattern mining
+1. Run "python mlxtend_test.py"
+
+## Recreate the processed datasets
+1. Run "python load_preproc.py"
+2. Run "python preprocess_data.py"
+3. Run "python Categorize_Data.py"
