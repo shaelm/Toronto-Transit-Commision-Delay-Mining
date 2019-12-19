@@ -38,7 +38,7 @@ This provides the dependencies needed for the python files.
 
 # Download datasets #
 
-Download the datasets from the links in the above section "Data Sets Used" and place them in a folder called datasets. These should be
+Download the datasets from the links in the above section "Data Sets Used" and place them in a folder called 'datasets'. These should be
 the downloaded datasets and they should be named as such.
 
 - ttc-streetcar-delay-data-2014.xlsx
@@ -51,7 +51,7 @@ the downloaded datasets and they should be named as such.
 
 # Running the code #
 
-You can recreate the processed datasets or just run the regressor and frequent pattern mining. 
+You can recreate the processed datasets or just run the regressor and frequent pattern mining. Please make sure that a folder called 'datasets' exists with the datasets shown above, and a folder named 'processed_data' also exists. Both should be at the root level, on the same one as the python files.
 
 ### Run the regression
 1. Run "python random_forest.py"
