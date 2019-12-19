@@ -1,6 +1,11 @@
 # Toronto TTC Streetcar Data Mining Project
 Combining Toronto Open TTC Data with seperate weather data to mine frequent patterns that cause delays.
 
+# External Links #
+
+GitHub Repository: https://github.com/shaelm/Toronto-Transit-Commision-Delay-Mining/
+Tableu Visualization: https://public.tableau.com/views/TTC_DM_Proj/DelaybyRain?:display_count=y&:origin=viz_share_link
+
 # Data Sets Used #
 https://toronto.weatherstats.ca/download.html - Download Climate Daily/Forecast/Sun- Toronto Weather Data
 https://open.toronto.ca/dataset/ttc-streetcar-delay-data/ - Download All TTC StreetCar Delay Data
