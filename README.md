@@ -36,10 +36,22 @@ We use conda to manage dependencies, install conda from https://docs.conda.io/pr
 
 This provides the dependencies needed for the python files.
 
+# Download datasets #
+
+Download the datasets from the links in the above section "Data Sets Used" and place them in a folder called datasets. These should be
+the downloaded datasets and they should be named as such.
+
+- ttc-streetcar-delay-data-2014.xlsx
+- ttc-streetcar-delay-data-2015.xlsx
+- ttc-streetcar-delay-data-2016.xlsx
+- ttc-streetcar-delay-data-2017.xlsx
+- ttc-streetcar-delay-data-2018.xlsx
+- ttc-streetcar-delay-data-2019.xlsx
+- weatherstats_toronto_daily.csv
 
 # Running the code #
 
-You can recreate the processed datasets or just run the regressor and frequent pattern mining
+You can recreate the processed datasets or just run the regressor and frequent pattern mining. 
 
 ### Run the regression
 1. Run "python random_forest.py"
