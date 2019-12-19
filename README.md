@@ -2,8 +2,8 @@
 Combining Toronto Open TTC Data with seperate weather data to mine frequent patterns that cause delays.
 
 # Data Sets Used #
-https://toronto.weatherstats.ca/download.html- Download Climate Daily/Forecast/Sun- Toronto Weather Data
-https://open.toronto.ca/dataset/ttc-streetcar-delay-data/- Download All TTC StreetCar Delay Data
+https://toronto.weatherstats.ca/download.html - Download Climate Daily/Forecast/Sun- Toronto Weather Data
+https://open.toronto.ca/dataset/ttc-streetcar-delay-data/ - Download All TTC StreetCar Delay Data
 
 # Data Pre-Processing #
 
